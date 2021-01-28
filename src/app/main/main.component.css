@@ -1,0 +1,207 @@
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+a,li,ul{
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+a:hover{
+  text-decoration: none !important;
+  color: white !important;
+  transition: all .3s linear;
+}
+
+.nav-menu li{
+  display: inline;
+  margin-right: 37px;
+}
+
+.bg-promo{
+  position: relative;
+  text-align: center;
+  background-image: url("../../assets/img/flowers.jpg") ;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.header-nav{
+  background-color: white;
+  opacity: 0.9;
+  height: 90px;
+  box-shadow: 2px 2px 7px grey;
+}
+
+.nav-li{
+  font-size: 17px;
+  font-family: "Segoe UI";
+  color: rgba(69, 69, 69, 0.749);
+  line-height: 1.2;
+}
+
+.nav-li:hover{
+  text-decoration: none;
+  color: #d60304 !important;
+  transition: .5s;
+}
+
+.header-nav .btn{
+  color: white;
+  background-color: #de6d6e;
+  height: 27px;
+}
+
+.header-nav .btn:hover{
+  background-color: #c39b9c;
+}
+
+.page-title{
+  margin-top: 23%;
+}
+
+.page-title .first-text{
+  display: block;
+  font-size: 69px;
+  font-weight: bold;
+  color: white;
+
+  text-shadow: 0 0 13px grey;
+}
+
+.page-title .second-text{
+  display: block;
+  font-weight: lighter;
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 0 13px grey;
+  opacity: 0.8;
+}
+
+/*//////////////////////!*HEAD END*!//////////////////*/
+
+.big-text{
+  font-size: 35px;
+  /*font-family: "lte";*/
+  color: rgb(64, 64, 64);
+  line-height: 1.2;
+}
+
+.down-text{
+  font-size: 17px;
+  color: rgb(99, 99, 99);
+  line-height: 1.2;
+}
+
+.circles{
+  margin-top: 84px;
+}
+
+.circle p{
+  font-size: 12px;
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.circle{
+  position: relative;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+}
+
+.circle:hover img, .circle:hover span{
+  opacity: 27%;
+  transition: all .2s linear;
+}
+
+.circle:hover p{
+  display: inline-block;
+}
+
+.circle span{
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.line{
+  margin: 50px 0;
+  height: 3px;
+  width: 100%;
+  background-color: #e9e9e9;
+}
+
+.one{
+  font-size: 27px;
+  color: rgb(64, 64, 64);
+  line-height: 1.2;
+
+}
+
+.two{
+  font-size: 15px;
+  color: rgb(139, 139, 139);
+  line-height: 1.467;
+  margin-top: 20px;
+}
+
+.articles .row{
+  margin-bottom: 80px;
+}
+
+.zoom,.zoom1,.zoom2{
+  transition: all .4s linear;
+}
+
+.zoom:hover,.zoom1:hover,.zoom2:hover{
+  transform: scale(1.1);
+}
+
+.bg-black{
+  background-image: url("../../assets/img/bg.jpg");
+  padding: 35px 0;
+}
+
+.title-foot{
+  display: inline-block;
+  font-size: 21px;
+  color: rgb(174, 174, 174);
+  margin-bottom: 15px;
+}
+
+.bg-black a{
+  font-size: 15px;
+  color: rgb(139, 139, 139);
+}
+
+.footer-circle{
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #696b6a;
+  transition: all .4s linear;
+}
+
+.footer-circle:hover{
+  background-color: #ffffff;
+
+}
+
+.cop{
+  display: block;
+  font-size: 15px;
+  color: rgb(139, 139, 139);
+  line-height: 1.467;
+  margin-top: 28px;
+}
+
+
